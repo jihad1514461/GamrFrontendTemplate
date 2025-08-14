@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Card, CardBody } from '@material-tailwind/react';
 import { Zap, Shield, Heart, Swords } from 'lucide-react';
-import { useTheme } from '../../contexts/ThemeContext';
-import { useFadeIn } from '../../hooks/useAnimation';
+import { useTheme } from '../../Core/contexts/ThemeContext';
+import { useFadeIn } from '../../Core/hooks/useAnimation';
 
 const SpellCard = ({ 
   spell,

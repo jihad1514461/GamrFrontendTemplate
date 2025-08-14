@@ -1,8 +1,8 @@
 import React, { useState, useCallback } from 'react';
 import PropTypes from 'prop-types';
-import { useTheme } from '../../contexts/ThemeContext';
+import { useTheme } from '../../Core/contexts/ThemeContext';
 import ItemCard from './ItemCard';
-import Modal from '../ui/Modal';
+import Modal from '../../Core/components/ui/Modal';
 
 const InventoryGrid = ({ 
   items = [],

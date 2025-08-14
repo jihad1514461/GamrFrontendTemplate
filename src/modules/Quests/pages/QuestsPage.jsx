@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import QuestCard from '../components/game/QuestCard';
-import Tabs from '../components/ui/Tabs';
-import Modal from '../components/ui/Modal';
-import { useGame } from '../contexts/GameContext';
-import { useTheme } from '../contexts/ThemeContext';
+import QuestCard from '../components/QuestCard';
+import Tabs from '../../Core/components/ui/Tabs';
+import Modal from '../../Core/components/ui/Modal';
+import { useGame } from '../../Core/contexts/GameContext';
+import { useTheme } from '../../Core/contexts/ThemeContext';
 import { Target, MapPin, Clock, Award } from 'lucide-react';
 
 const QuestsPage = () => {

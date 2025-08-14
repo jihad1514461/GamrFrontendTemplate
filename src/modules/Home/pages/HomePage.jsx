@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-import CharacterCard from '../components/game/CharacterCard';
-import QuestCard from '../components/game/QuestCard';
-import ItemCard from '../components/game/ItemCard';
-import SpellCard from '../components/game/SpellCard';
-import HealthBar from '../components/game/HealthBar';
-import { useGame } from '../contexts/GameContext';
-import { useTheme } from '../contexts/ThemeContext';
+import CharacterCard from '../../Character/components/CharacterCard';
+import QuestCard from '../../Quests/components/QuestCard';
+import ItemCard from '../../Inventory/components/ItemCard';
+import SpellCard from '../../Spells/components/SpellCard';
+import HealthBar from '../../Core/components/ui/HealthBar';
+import { useGame } from '../../Core/contexts/GameContext';
+import { useTheme } from '../../Core/contexts/ThemeContext';
 import { Sword, Package, Target, Zap, Settings } from 'lucide-react';
 
 const HomePage = () => {

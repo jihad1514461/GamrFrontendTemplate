@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import SpellCard from '../components/game/SpellCard';
-import Tabs from '../components/ui/Tabs';
-import Modal from '../components/ui/Modal';
-import HealthBar from '../components/game/HealthBar';
-import { useGame } from '../contexts/GameContext';
-import { useTheme } from '../contexts/ThemeContext';
+import SpellCard from '../components/SpellCard';
+import Tabs from '../../Core/components/ui/Tabs';
+import Modal from '../../Core/components/ui/Modal';
+import HealthBar from '../../Core/components/ui/HealthBar';
+import { useGame } from '../../Core/contexts/GameContext';
+import { useTheme } from '../../Core/contexts/ThemeContext';
 import { Zap, Swords, Heart, Shield } from 'lucide-react';
 
 const SpellsPage = () => {

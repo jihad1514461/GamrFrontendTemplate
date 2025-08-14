@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import CharacterCard from '../components/game/CharacterCard';
-import HealthBar from '../components/game/HealthBar';
-import { useGame } from '../contexts/GameContext';
-import { useTheme } from '../contexts/ThemeContext';
+import CharacterCard from '../components/CharacterCard';
+import HealthBar from '../../Core/components/ui/HealthBar';
+import { useGame } from '../../Core/contexts/GameContext';
+import { useTheme } from '../../Core/contexts/ThemeContext';
 
 const CharacterPage = () => {
   const { player } = useGame();

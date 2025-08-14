@@ -1,16 +1,16 @@
 import React from 'react';
 import { ThemeProvider } from '@material-tailwind/react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { GameThemeProvider } from './contexts/ThemeContext';
-import { GameProvider } from './contexts/GameContext';
-import ErrorBoundary from './components/ui/ErrorBoundary';
-import Navigation from './components/layout/Navigation';
-import HomePage from './pages/HomePage';
-import CharacterPage from './pages/CharacterPage';
-import InventoryPage from './pages/InventoryPage';
-import QuestsPage from './pages/QuestsPage';
-import SpellsPage from './pages/SpellsPage';
-import ApiDemo from './components/demo/ApiDemo';
+import { GameThemeProvider } from './modules/Core/contexts/ThemeContext';
+import { GameProvider } from './modules/Core/contexts/GameContext';
+import ErrorBoundary from './modules/Core/components/ui/ErrorBoundary';
+import Navigation from './modules/Core/components/layout/Navigation';
+import HomePage from './modules/Home/pages/HomePage';
+import CharacterPage from './modules/Character/pages/CharacterPage';
+import InventoryPage from './modules/Inventory/pages/InventoryPage';
+import QuestsPage from './modules/Quests/pages/QuestsPage';
+import SpellsPage from './modules/Spells/pages/SpellsPage';
+import ApiDemo from './modules/ApiDemo/pages/ApiDemo';
 
 function App() {
   return (

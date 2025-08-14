@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import InventoryGrid from '../components/game/InventoryGrid';
-import ItemCard from '../components/game/ItemCard';
-import Tabs from '../components/ui/Tabs';
-import { useGame } from '../contexts/GameContext';
-import { useTheme } from '../contexts/ThemeContext';
+import InventoryGrid from '../components/InventoryGrid';
+import ItemCard from '../components/ItemCard';
+import Tabs from '../../Core/components/ui/Tabs';
+import { useGame } from '../../Core/contexts/GameContext';
+import { useTheme } from '../../Core/contexts/ThemeContext';
 import { Package, Sword, Shield, Gem } from 'lucide-react';
 
 const InventoryPage = () => {

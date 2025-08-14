@@ -1,0 +1,3 @@
+// Template utility files
+// Copy this folder structure to create new modules
+export {};

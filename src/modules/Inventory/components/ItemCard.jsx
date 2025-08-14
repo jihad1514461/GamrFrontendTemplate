@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Card, CardBody } from '@material-tailwind/react';
 import { Package, Star } from 'lucide-react';
-import { useTheme } from '../../contexts/ThemeContext';
-import { getRarityColor } from '../../utils/helpers';
-import { useFadeIn } from '../../hooks/useAnimation';
+import { useTheme } from '../../Core/contexts/ThemeContext';
+import { getRarityColor } from '../../Core/utils/helpers';
+import { useFadeIn } from '../../Core/hooks/useAnimation';
 
 const ItemCard = ({ 
   item,

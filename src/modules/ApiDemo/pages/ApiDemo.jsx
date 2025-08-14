@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Card, Button, Form, Alert } from 'react-bootstrap';
-import { useTheme } from '../../contexts/ThemeContext';
-import { useApi } from '../../hooks/useApi';
-import { gameApi } from '../../services/api';
-import LoadingSpinner from '../ui/LoadingSpinner';
+import { useTheme } from '../../Core/contexts/ThemeContext';
+import { useApi } from '../../Core/hooks/useApi';
+import { gameApi } from '../../Core/services/api';
+import LoadingSpinner from '../../Core/components/ui/LoadingSpinner';
 
 const ApiDemo = () => {
   const { theme } = useTheme();
