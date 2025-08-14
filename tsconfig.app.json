@@ -6,6 +6,16 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@core/*": ["src/modules/Core/*"],
+      "@modules/*": ["src/modules/*"],
+      "@home/*": ["src/modules/Home/*"],
+      "@character/*": ["src/modules/Character/*"],
+      "@inventory/*": ["src/modules/Inventory/*"],
+      "@quests/*": ["src/modules/Quests/*"],
+      "@spells/*": ["src/modules/Spells/*"]
+    },
 
     /* Bundler mode */
     "moduleResolution": "bundler",
